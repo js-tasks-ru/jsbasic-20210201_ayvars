@@ -12,9 +12,23 @@ function print(text) {
  * @returns {boolean}
  */
 function isValid(name) {
-  // ваш код...
+
+  if (name == null) {
+    return false;
+  }
+  
+  else if(name.length < 4 || name.includes(' ')){
+    return false;
+  }
+
+  else {
+    return true
+  }
 }
 
+/**
+ * Эту функцию трогать не нужно
+ */
 function sayHello() {
   let userName = prompt('Введите ваше имя');
 
