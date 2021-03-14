@@ -1,4 +1,5 @@
 function makeFriendsList(friends) {
+<<<<<<< HEAD
   let ul = document.createElement('ul');
 
   for(let friend of friends){
@@ -10,3 +11,7 @@ function makeFriendsList(friends) {
   return ul;
 }
 
+=======
+  // ваш код...
+}
+>>>>>>> d6949cf5b2cd4b0b3929bff3a873b230d67f1042

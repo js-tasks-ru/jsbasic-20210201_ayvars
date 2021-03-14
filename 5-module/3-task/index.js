@@ -1,4 +1,5 @@
 function initCarousel() {
+<<<<<<< HEAD
   let carousel = document.querySelector(`.carousel__inner`);
   let buttonNextSlide = document.querySelector(`.carousel__arrow_right`);
   let buttonPrevSlide = document.querySelector(`.carousel__arrow_left`);
@@ -40,3 +41,7 @@ buttonPrevSlide.addEventListener('click', prevSlide);
 
 
 
+=======
+  // ваш код...
+}
+>>>>>>> d6949cf5b2cd4b0b3929bff3a873b230d67f1042

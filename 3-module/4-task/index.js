@@ -1,4 +1,5 @@
 function showSalary(users, age) {
+<<<<<<< HEAD
   let result = '';
   
   for(let user of users){
@@ -8,4 +9,7 @@ function showSalary(users, age) {
   }
   result = result.trim();
   return result
+=======
+  // ваш код...
+>>>>>>> d6949cf5b2cd4b0b3929bff3a873b230d67f1042
 }

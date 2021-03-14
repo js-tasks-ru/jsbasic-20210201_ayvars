@@ -1,4 +1,5 @@
 function toggleText() {
+<<<<<<< HEAD
   let button = document.querySelector('.toggle-text-button');
   let text = document.getElementById('text');
 
@@ -11,4 +12,7 @@ function toggleText() {
       text.hidden = true;
     }
   })
+=======
+  // ваш код...
+>>>>>>> d6949cf5b2cd4b0b3929bff3a873b230d67f1042
 }
