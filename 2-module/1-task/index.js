@@ -7,9 +7,18 @@
  
 function sumSalary(salaries) {
   let result = 0;
-  for (key in salaries) {
-    if(typeof salaries[key] === 'number' && isFinite(salaries[key]) === true) 
-    result += salaries[key];
+
+  for(item in salaries){
+    
+    if(typeof(salaries[item]) === 'number' && isFinite(salaries[item]) == true){  
+      
+      result += salaries[item] 
+      
+    }
   }
-  return result;
+
+return result;
+
 }
+
+
